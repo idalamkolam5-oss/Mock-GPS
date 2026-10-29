@@ -1,4 +1,4 @@
-package com.ardy.fakegps
+package com.ardy.maptools
 
 import android.app.Notification
 import android.app.NotificationChannel

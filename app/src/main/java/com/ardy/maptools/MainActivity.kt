@@ -1,4 +1,4 @@
-package com.ardy.fakegps
+package com.ardy.maptools
 
 import android.Manifest
 import android.app.AppOpsManager
@@ -16,7 +16,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.ActivityCompat
 import androidx.core.content.ContextCompat
 import androidx.preference.PreferenceManager
-import com.ardy.fakegps.databinding.ActivityMainBinding
+import com.ardy.maptools.databinding.ActivityMainBinding
 import org.osmdroid.config.Configuration
 import org.osmdroid.util.GeoPoint
 import org.osmdroid.views.CustomZoomButtonsController
