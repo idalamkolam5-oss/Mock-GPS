@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Mock GPS JNE</string>
+    <string name="start_mock">AKTIFKAN FAKE GPS</string>
+    <string name="stop_mock">HENTIKAN FAKE GPS</string>
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="saved_places">Titik Favorit</string>
+    <string name="set_current">Lokasi Saya</string>
+</resources>
