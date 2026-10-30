@@ -61,8 +61,8 @@ class MockLocationService : Service() {
             return START_NOT_STICKY
         }
 
-        currentLat = intent?.getDoubleExtra(EXTRA_LAT, -7.4726) ?: -7.4726
-        currentLng = intent?.getDoubleExtra(EXTRA_LNG, 110.2198) ?: 110.2198
+        currentLat = intent?.getDoubleExtra(EXTRA_LAT, -7.568220) ?: -7.568220
+        currentLng = intent?.getDoubleExtra(EXTRA_LNG, 110.260163) ?: 110.260163
 
         startForeground(NOTIF_ID, createNotification(currentLat, currentLng))
         startMocking()

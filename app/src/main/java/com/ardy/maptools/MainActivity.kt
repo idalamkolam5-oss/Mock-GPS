@@ -48,7 +48,7 @@ class MainActivity : AppCompatActivity() {
         binding.mapView.setMultiTouchControls(true)
         binding.mapView.zoomController.setVisibility(CustomZoomButtonsController.Visibility.ALWAYS)
 
-        val startPoint = GeoPoint(-7.4726, 110.2198) // Magelang Kota
+        val startPoint = GeoPoint(-7.568220, 110.260163) // Default JNE Palbapang
         val mapController = binding.mapView.controller
         mapController.setZoom(15.0)
         mapController.setCenter(startPoint)
@@ -64,17 +64,14 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Quick Presets
-        binding.chipMgl.setOnClickListener {
-            setCoordinates(-7.4726, 110.2198)
+        binding.chipJnePalbapang.setOnClickListener {
+            setCoordinates(-7.568220, 110.260163)
         }
-        binding.chipJneMgl.setOnClickListener {
-            setCoordinates(-7.4812, 110.2245)
+        binding.chipJneBlondo.setOnClickListener {
+            setCoordinates(-7.540413353550987, 110.23579287902682)
         }
-        binding.chipYogya.setOnClickListener {
-            setCoordinates(-7.7956, 110.3695)
-        }
-        binding.chipSmg.setOnClickListener {
-            setCoordinates(-6.9932, 110.4203)
+        binding.chipJneBumirejo.setOnClickListener {
+            setCoordinates(-7.557836071599343, 110.22876790708412)
         }
 
         // Tombol Start / Stop Mock GPS

@@ -77,7 +77,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="numberSigned|numberDecimal"
-                        android:text="-7.4726" />
+                        android:text="-7.568220" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -92,7 +92,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:inputType="numberSigned|numberDecimal"
-                        android:text="110.2198" />
+                        android:text="110.260163" />
                 </com.google.android.material.textfield.TextInputLayout>
             </LinearLayout>
 
@@ -110,28 +110,22 @@
                     app:singleSelection="true">
 
                     <com.google.android.material.chip.Chip
-                        android:id="@+id/chipMgl"
+                        android:id="@+id/chipJnePalbapang"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Alun-Alun MGL" />
+                        android:text="JNE PALBAPANG" />
 
                     <com.google.android.material.chip.Chip
-                        android:id="@+id/chipJneMgl"
+                        android:id="@+id/chipJneBlondo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="JNE MGL" />
+                        android:text="JNE BLONDO" />
 
                     <com.google.android.material.chip.Chip
-                        android:id="@+id/chipYogya"
+                        android:id="@+id/chipJneBumirejo"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Yogyakarta" />
-
-                    <com.google.android.material.chip.Chip
-                        android:id="@+id/chipSmg"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="Semarang" />
+                        android:text="JNE BUMIREJO" />
                 </com.google.android.material.chip.ChipGroup>
             </HorizontalScrollView>
 
