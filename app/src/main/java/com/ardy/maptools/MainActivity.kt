@@ -174,7 +174,7 @@ class MainActivity : AppCompatActivity() {
     private fun showMockLocationDialog() {
         AlertDialog.Builder(this)
             .setTitle("Izin Mock Location Diperlukan")
-            .setMessage("Aplikasi ini belum dipilih sebagai 'Aplikasi Lokasi Tiruan' di Opsi Pengembang.\n\nSilakan buka Opsi Pengembang -> Pilih aplikasi lokasi tiruan -> Pilih Mock GPS JNE.")
+            .setMessage("Aplikasi ini belum dipilih sebagai 'Aplikasi Lokasi Tiruan' di Opsi Pengembang.\n\nSilakan buka Opsi Pengembang -> Pilih aplikasi lokasi tiruan -> Pilih JNE Maps Tools.")
             .setPositiveButton("Buka Pengaturan") { _, _ ->
                 try {
                     startActivity(Intent(Settings.ACTION_APPLICATION_DEVELOPMENT_SETTINGS))

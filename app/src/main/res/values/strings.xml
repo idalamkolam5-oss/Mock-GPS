@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Mock GPS JNE</string>
+    <string name="app_name">JNE Maps Tools</string>
     <string name="start_mock">AKTIFKAN FAKE GPS</string>
     <string name="stop_mock">HENTIKAN FAKE GPS</string>
     <string name="latitude">Latitude</string>

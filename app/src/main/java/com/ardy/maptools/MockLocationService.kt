@@ -181,7 +181,7 @@ class MockLocationService : Service() {
         )
 
         return NotificationCompat.Builder(this, CHANNEL_ID)
-            .setContentTitle("Mock GPS JNE Aktif")
+            .setContentTitle("JNE Maps Tools Aktif")
             .setContentText("Lokasi palsu: %.5f, %.5f".format(lat, lng))
             .setSmallIcon(R.drawable.ic_launcher_foreground)
             .setContentIntent(openAppPendingIntent)
